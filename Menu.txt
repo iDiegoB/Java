@@ -1,0 +1,22 @@
+import.java.util.Scanner
+public class Menu{
+public static void main(String[]args){
+int op=0, A=0, B=0, C=0, D=0, E=0;
+Scanner tec= new Scanner(System.in)
+A=tec.nextInt();
+B=tec.nextInt();
+System.out.printIn("1: actualizar datos");
+System.out.printIn("2: comprar un producto");
+System.out.printIn("3: servicio técnico");
+System.out.printIn("4: devolucion de productos");
+System.out.printIn("presione cualquier numero para: terminar.");
+op=tec.nextInt();
+switch(op){
+case 1: System.out.printIn("1: actualizar datos"); break;
+case 2: System.out.printIn("2: comprar un producto"); break;
+case 3: System.out.printIn("3: servicio técnico"); break;
+case 4: System.out.printIn("4: devolucion de productos"); break;
+default: System.out.printIn("5: terminar."); break;
+}
+
+}
